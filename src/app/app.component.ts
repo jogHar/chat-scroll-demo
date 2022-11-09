@@ -8,7 +8,7 @@ import { PerfectScrollbarDirective } from "ngx-perfect-scrollbar";
 })
 
 export class AppComponent  {
-  viewSpineer: Boolean = false;
+  viewSpinner: Boolean = false;
   message:String = '';
   messageCount: Number=0;
 

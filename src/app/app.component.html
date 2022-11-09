@@ -1,5 +1,6 @@
-<div id="chatBox" [perfectScrollbar]={} (scroll)="onScroll($event)">
-<span *ngIf="viewSpineer"><img id="loader" src='https://i.stack.imgur.com/qq8AE.gif'></span>
-    <div [innerHtml]="message">
-    </div>
+<div id="chatBox" [perfectScrollbar]="{}" (scroll)="onScroll($event)">
+  <span *ngIf="viewSpinner"
+    ><img id="loader" src="https://i.stack.imgur.com/qq8AE.gif"
+  /></span>
+  <div [innerHtml]="message"></div>
 </div>
